@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="body-bc-animation"></div>
+
     <div class="header">
       <a href="#about">
         <img
@@ -19,17 +21,112 @@
           class="header-logo"
         />
       </a>
+
       <nav class="header-nav">
-        <a href="javascript:void(0)" class="nav-drop-down">ABOUT</a>
-        <a href="javascript:void(0)" class="nav-drop-down">ACADEMIC</a>
-        <a href="javascript:void(0)" class="nav-drop-down">RESEARCH</a>
-        <a href="javascript:void(0)" class="nav-drop-down">COMMITTEES</a>
-        <a href="javascript:void(0)" class="nav-drop-down">ADMISSIONS</a>
-        <a href="javascript:void(0)" class="nav-drop-down">PLACEMENT</a>
-        <a href="javascript:void(0)" class="nav-drop-down">EXAMINATION</a>
-        <a href="javascript:void(0)">IQAC</a>
-        <a href="javascript:void(0)" class="nav-drop-down">LIFE @ JSS STU</a>
-        <a href="javascript:void(0)">OUTREACH</a>
+        <li>
+          <a href="#about" class="nav-drop-down about">ABOUT</a>
+          <div class="hide1 drop-down-elements about-drop-1">
+            <a href="">About University</a>
+            <a href="">Leadership</a>
+            <a href="">Administration</a>
+            <a href="">RANKING</a>
+            <a href="">Recognitions & Approvals</a>
+            <a href="">MoU-MoA</a>
+            <a href="">Mandatory Disclosure</a>
+            <a href="">TEQIP</a>
+            <a href="">RTI</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down academic"
+            >ACADEMIC</a
+          >
+          <div class="hide1 drop-down-elements academic-drop-1">
+            <a href="">Programmes</a>
+            <a href="">Academic Regulations</a>
+            <a href="">Academic Notification</a>
+            <a href="">Calendar of Events</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down research"
+            >RESEARCH</a
+          >
+          <div class="hide1 drop-down-elements research-drop-1">
+            <a href="">Research Notification</a>
+            <a href="">Central Instrumentation Facilities</a>
+            <a href="">Patent</a>
+            <a href="">Publications</a>
+            <a href="">Projects Sanctioned</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down committees"
+            >COMMITTEES</a
+          >
+          <div class="hide1 drop-down-elements committees-drop-1">
+            <a href="">Statutory Committees</a>
+            <a href="">Non-Statutory Committees</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down admissions"
+            >ADMISSIONS</a
+          >
+          <div class="hide1 drop-down-elements admissions-drop-1">
+            <a href="">Programmes offered</a>
+            <a href="">About Admissions</a>
+            <a href="">Online Admissions</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down placement"
+            >PLACEMENT</a
+          >
+          <div class="hide1 drop-down-elements placement-drop-1">
+            <a href="">About Placement</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down examination"
+            >EXAMINATION</a
+          >
+          <div class="hide1 drop-down-elements examination-drop-1">
+            <a href="">Examination</a>
+            <a href="">Announcement</a>
+            <a href="">Regulations and Policy</a>
+            <a href="">Application and SOPs</a>
+            <a href="">Ph.D Results</a>
+            <a href="">Convocation</a>
+            <a href="">Fee Structure</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)">IQAC</a>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" class="nav-drop-down life"
+            >LIFE @ JSS STU</a
+          >
+          <div class="hide1 drop-down-elements life-drop-1">
+            <a href="">Essential Services</a>
+            <a href="">Students Clubs</a>
+            <a href="">Yuva Bimba 2024</a>
+            <a href="">College Fests</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)">OUTREACH</a>
+        </li>
       </nav>
     </div>
 
@@ -59,7 +156,6 @@
         autoplay=""
         loop=""
         muted=""
-        poster="assets/img/bg/sjcebg.jpeg"
         oncanplay="this.play()"
         onloadedmetadata="this.muted = true"
       >
@@ -72,35 +168,57 @@
     </div>
 
     <div id="about" class="home-about">
-      <img
-        src="https://images.collegedunia.com/public/college_data/images/campusimage/15831423763.jpeg"
-        alt=""
-      />
-      <div class="home-about-content">
-        <h2>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</h2>
-        <p>
-          JSS Science and Technolgy University (JSS STU) is built on a strong
-          reputation of SJCE, Mysuru, and passionately committed for providing
-          education in Science, Technology, Engineering & Mathematics (STEM) and
-          Management. It is Steadfast to find solutions to some of the great
-          challenges of our time through scientific research and technological
-          innovations.
-        </p>
-        <p>
-          JSS STU is the second University established by JSS Mahavidyapeetha,
-          besides the JSS Academy of Higher Education and Research a health
-          sciences focused deemed university at Mysuru.
-        </p>
-        <p>
-          JSS STU plays a key role in providing high quality skilled manpower in
-          the fields of Science, Engineering & Technology and Management to
-          transform the society through research and innovation.
-        </p>
-        <p>
-          JSS STU is committed to deliver quality education at all levels and
-          provide opportunities for aspiring youth to meet the global needs of
-          society in every sector.
-        </p>
+      <h2>&#127891;About University</h2>
+      <div class="about-jss-stu">
+        <img src="./assets/jssstu.png" alt="" />
+        <div class="home-about-content">
+          <h2>JSS SCIENCE AND TECHNOLOGY UNIVERSITY</h2>
+          <p>
+            JSS Science and Technolgy University (JSS STU) is built on a strong
+            reputation of SJCE, Mysuru, and passionately committed for providing
+            education in Science, Technology, Engineering & Mathematics (STEM)
+            and Management. It is Steadfast to find solutions to some of the
+            great challenges of our time through scientific research and
+            technological innovations.
+          </p>
+          <p>
+            JSS STU is the second University established by JSS Mahavidyapeetha,
+            besides the JSS Academy of Higher Education and Research a health
+            sciences focused deemed university at Mysuru.
+          </p>
+          <p>
+            JSS STU plays a key role in providing high quality skilled manpower
+            in the fields of Science, Engineering & Technology and Management to
+            transform the society through research and innovation.
+          </p>
+          <p>
+            JSS STU is committed to deliver quality education at all levels and
+            provide opportunities for aspiring youth to meet the global needs of
+            society in every sector.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="about-sjce">
+        <img src="./assets/sjce.png" alt="" />
+        <div class="home-about-content">
+          <h2>SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</h2>
+          <p>
+            Established in 1963 as SJCE has 12 departments in engineering, a
+            Master of Computer Applications department. It was affiliated to the
+            VTU, Belgaum, but now it's a Constituent College of JSS Science and
+            Technology University from 2016 - 2017 academic year. SJCE is
+            accredited by the AICTE.
+          </p>
+          <p>
+            The Institution serves as one of the major landmarks of the western
+            part of Mysore, with its sprawling 117 acres of campus and several
+            recognizable buildings. As one of the leading institutes in India,
+            SJCE has been recognized under the Technical Education Quality
+            Improvement Programme(TEQIP), which is a world bank associated
+            scheme and has been granted a generous and sumptuous Rs.20 crores.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -132,14 +250,16 @@
           <hr />
           <div class="contact">
             <div class="contact-ph">
-              &phone;
+              <!-- &phone; -->
+              &#128222;
               <div>
                 <p>0821-2548285</p>
                 <p>0821-2548286</p>
               </div>
             </div>
             <div class="contact-mail">
-              &#x2709;
+              <!-- &#x2709; -->
+              &#128231;
               <div>
                 <p>enquire@jssstuniv.in</p>
               </div>
